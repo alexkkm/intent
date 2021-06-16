@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intent/share_service.dart';
+import 'package:readinglist/share_service.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'intent',
+      title: 'readinglist',
       home: MyHomePage(title: 'Shared Text'),
     );
   }

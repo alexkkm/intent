@@ -1,4 +1,4 @@
-# intent
+# readinglist
 
 Flutter demo for receiving shared data on both Android and iOS. Finished product for my "Receiving shared data in Flutter using Android Send Intents and iOS Share Extensions" tutorial on Medium.
 

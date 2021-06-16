@@ -1,4 +1,4 @@
-name: intent
+name: readinglist
 description: A simple Flutter app demonstrating how to receive shared data.
 
 publish_to: "none"
