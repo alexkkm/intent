@@ -1,4 +1,4 @@
-package com.tnorbury.flutterSharingTutorial
+package com.alexkkm.intent
 
 import android.content.Intent
 import android.os.Bundle
@@ -19,7 +19,7 @@ class MainActivity : FlutterActivity() {
   override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
     super.configureFlutterEngine(flutterEngine)
     MethodChannel(flutterEngine.dartExecutor.binaryMessenger,
-            "com.tnorbury.flutterSharingTutorial").setMethodCallHandler { call, result ->
+            "com.alexkkm.intent").setMethodCallHandler { call, result ->
               if (call.method == "getSharedData") {
                 handleIntent()
                 result.success(sharedData)
