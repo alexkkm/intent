@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Intent',
+      title: 'intent',
       home: MyHomePage(title: 'Shared Text'),
     );
   }
